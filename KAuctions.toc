@@ -3,7 +3,7 @@
 ## Notes: Experimental addon for reporting auction house prices on item tooltips
 ## IconTexture: Interface\Icons\Ui_plundercoins
 ## Author: Kronus
-## Version: 11.2.0.6
+## Version: 11.2.0.7
 
 Bindings.lua
 CoreUtils.lua

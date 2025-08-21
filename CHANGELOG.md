@@ -7,11 +7,6 @@ Version 11.2.0.5 Beta
 - Added a keybind to show a popup to copy the Discord command for the currently hovered over item
 
 
-Version 11.2.0.4 Beta
-
-- Manually updating database
-
-
 Version 11.2.0.3 Beta
 
 - Adding some real data, though it's currently a snapshot from the past
