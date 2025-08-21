@@ -1,0 +1,26 @@
+# Optional: define where your add-on files live relative to repo root
+package-as: KAuctions
+
+# Move all root-level files into that folder when packing
+move-folders:
+  ".": KAuctions
+
+# Ignore files/folders that shouldn't be in the release zip
+ignore:
+  - .vscode/
+  - docs/
+  - tests/
+  - .gitignore
+  - README.md
+
+# Changelog generation
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+# Release type
+release-type: beta
+
+# Supported game versions
+game-versions:
+  - 11.2.0 # TWW

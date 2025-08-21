@@ -1,0 +1,5 @@
+<Bindings>
+    <Binding name="KAUCTIONS_COPY_POPUP" category="AddOns">
+        KAuctions_ShowCopyPopup()
+    </Binding>
+</Bindings>
