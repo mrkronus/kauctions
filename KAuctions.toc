@@ -1,11 +1,36 @@
 ## Interface: 110200
 ## Title: KAuctions
+## X-Title-With-Spaces: K Auctions
 ## Notes: Experimental addon for reporting auction house prices on item tooltips
-## IconTexture: Interface\Icons\Ui_plundercoins
-## Author: Kronus
 ## Version: 11.2.0.7
+## IconTexture: Interface\Icons\Ui_plundercoins
 
+## Author: Kronus
+## SavedVariables: KAuctionsDB
+## X-Release-Type: beta
+## Dependencies: KLib
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## LoadOnDemand: 0
+
+#@no-lib-strip@
+Embeds.xml
+#@end-no-lib-strip@
+
+# KAuctions
+libs\KLib.lua
+data\AddonSettings.lua
+data\Metadata.lua
+data\AuctionData.lua
+
+ace\AceAddon.lua
+ace\MinimapTooltip.lua
+ace\MinimapIcon.lua
 Bindings.lua
-CoreUtils.lua
-AuctionData.lua
-KAuctions.lua
+
+#modules\Session.lua
+modules\AuctionSettings.lua
+
+ui\CopyPopup.lua
+ui\TooltipPriceDisplay.lua
+ui\MinimapTooltipProvider.lua

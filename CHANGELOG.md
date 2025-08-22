@@ -1,6 +1,11 @@
 _Any version not listed explicitly is for an automated data update_
 
 
+Version 11.2.0.7 Beta
+
+- Updating addon to use the same common files and libs as the other addons
+
+
 Version 11.2.0.5 Beta
 
 - Manually updating database
